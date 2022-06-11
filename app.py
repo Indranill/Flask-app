@@ -14,7 +14,7 @@ def data():
     if request.method=='POST':
         file = request.files['xlfile']
         if file:
-            d=pd.read_excel(file)
+            d=pd.read_csv(file)
             d.iloc[:,0]
             d=d.to_json()
 
