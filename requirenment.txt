@@ -2,3 +2,4 @@ Werkzeug
 pandas
 Flask
 openpyxl
+excel
