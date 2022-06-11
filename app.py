@@ -21,4 +21,4 @@ def data():
     return render_template('data.html', data = d)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(port=5500, host="0.0.0.0", debug=True)
